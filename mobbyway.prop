@@ -1,0 +1,9 @@
+{
+  "modules" : { 
+    "mobbyway"  : {
+      "description": "Donne la position d'un contact dans Mobbyway",
+      "version"    : "1.0",
+	  "clef"	: "[token]"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.plugin-gridster.mobbyway .front {
+  background: #FFFFFF url('images/logo.jpg') center 54px;
+  background-size:   85px 85px;
+  background-repeat: no-repeat;
+}
+
+.plugin-gridster.mobbyway .back {
+  background: #FFFFFF;
+}

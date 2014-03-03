@@ -1,0 +1,17 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulemobbyway" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="rulemobbyway" scope="public">
+	<example>donne la localisation </example>
+    <tag>out.action=new Object(); </tag>
+    
+    <item weight="2">Sarah</item>
+    
+    <one-of>      
+	  <item>donne la localisation de Mobbyway</item>
+	  <item>quelle est la localisation de Mobbyway</item>
+	   <item>communique moi la localisation de Mobbyway</item>
+    </one-of>
+    <tag>out.action._attributes.tts="Je m'en occupe.";</tag>
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/mobbyway";</tag>
+
+  </rule> 
+</grammar>
